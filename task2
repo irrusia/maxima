@@ -1,0 +1,5 @@
+1. SELECT email FROM users u GROUP BY email HAVING COUNT(email) > 1;
+
+2. SELECT u.login FROM users u LEFT JOIN orders o ON u.id = o.user_id WHERE o.id is null;
+
+3. SELECT u.login, COUNT(o.id) as orders_count FROM user u LEFT JOIN orders o ON u.id = o.user_id GROUP BY u.id, u.login HAVING orders_count > 2;

@@ -1,0 +1,61 @@
+* {
+  font-family:verdana,sans-serif;
+  font-size  :14pt;
+}
+
+body {
+  width     :700px;
+  margin    :20px auto;
+}
+
+html {
+  background:#fff
+}
+
+.username {
+  text-align :center;
+  background :#eb8;
+  color      :#40d;
+  font-family:helvetica;
+  font-size  :20pt;
+  padding    :4px;
+}
+
+.info {
+  font-style :italic;
+  margin     :40px 0px;
+  text-align :center;
+}
+
+.center {
+  text-align:center;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+.taken, .error {
+  color:red;
+}
+
+.available {
+  color:green;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+
+.mb-30 {
+  margin-bottom:30px;
+}
+
+.mb-15 {
+  margin-bottom:15px;
+}
+
+.mt-30 {
+  margin-top:30px;
+}
